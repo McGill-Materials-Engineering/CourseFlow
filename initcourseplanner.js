@@ -110,10 +110,21 @@ function makeSplashpage(container){
     
     //postmessage listening
     window.addEventListener("message",function(evt){
-        console.log("Message Received!");
-        if(project==null)project = new Project(container);
-        project.fromXML(evt.data);
-        setTimeout(function(){splashpage.style.opacity="0";splashpage.style.display="none";},500);
+        console.log(evt);
+        console.log("Message Received! Attempting to build project...");
+        if(!(evt.data instanceof String) || evt.data.indexOf("<project>")>=0)return;
+        var success=false;
+        try{
+            if(project==null)project = new Project(container);
+            project.fromXML(evt.data);
+            success=true;
+        }catch(err){
+            console.log("failed to build project from message");
+        }
+        if(success){
+            console.log("successfully built project from message");
+            setTimeout(function(){splashpage.style.opacity="0";splashpage.style.display="none";},500);
+        }
     });
     if(window!=window.parent)window.parent.postMessage("ready","*");
     console.log("frame is ready");
