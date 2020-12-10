@@ -72,7 +72,7 @@ class Nodeview{
         this.dropNode.isDrop = true;
         this.dropNode.node = this.node;
         var linkStyle = defaultLinkIconStyle;
-        if(node.linkedWF!=null)linkStyle+="image=resources/images/wflink.svg;";
+        if(node.linkedWF!=null)linkStyle+="image="+iconpath+"wflink.svg;";
         this.linkIcon = this.graph.insertVertex(this.dropNode,null,'',this.dropNode.r()-24,2,16,16,linkStyle);
         var timeadj = 0;
         if(window.navigator.userAgent.match("Chrome"))timeadj=-2;
@@ -221,6 +221,8 @@ class Nodeview{
         var tempdiv = document.createElement('div');
         tempdiv.innerHTML = this.node.text;
         tempdiv.style.width=defaultCellWidth+"px";
+        tempdiv.style.padding="5px";
+        tempdiv.style.boxSizing="border-box";
         tempdiv.classList.add("tempdropdiv");
         $('body')[0].appendChild(tempdiv);
         var rect = tempdiv.getBoundingClientRect();
