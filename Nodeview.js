@@ -221,7 +221,7 @@ class Nodeview{
         var tempdiv = document.createElement('div');
         tempdiv.innerHTML = this.node.text;
         tempdiv.style.width=defaultCellWidth+"px";
-        tempdiv.style.padding="5px";
+        tempdiv.style.padding="10px";
         tempdiv.style.boxSizing="border-box";
         tempdiv.classList.add("tempdropdiv");
         $('body')[0].appendChild(tempdiv);
