@@ -335,6 +335,7 @@ class Tag {
     }
     
     fromCSV(array,row=0,col=0){
+        console.log(array[row][col]);
         this.setName(array[row][col]);
         var currentrow = row;
         if(array[row].length-1>col){

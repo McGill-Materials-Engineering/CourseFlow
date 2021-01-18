@@ -359,7 +359,7 @@ const LANGUAGE_TEXT = {
         displayheader:{en:"Display",fr:"Affichage"},
         sortbyheader:{en:"Sort By",fr:"Trier par"},
         sortradio:{
-            week:{en:"Week",fr:"Semaine"},
+            week:{en:"Week/Term",fr:"Semaine/Session"},
             icon:{en:"Context",fr:"Contexte"},
             column:{en:"Column",fr:"Colonne"}
         }
