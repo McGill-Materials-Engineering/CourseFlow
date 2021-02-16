@@ -715,6 +715,7 @@ class Project{
         else if(type=="course")wf = new Courseflow(this.container,this);
         else if(type=="outcome")wf = new Tag(this);
         else return;
+        gaEvent('Workflow',"created",type);
         wf.addButton(this.navigatorDivs[type]);
         if(this.view)this.view.workflowAdded(wf);
         this.workflows[type].push(wf);
