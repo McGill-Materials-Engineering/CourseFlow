@@ -1,0 +1,1217 @@
+<project><prname>McGill Materials Engineering </prname>
+<idnum>5776</idnum>
+<terminologyset>standard</terminologyset>
+<workflow><wfname>Materials Engineering</wfname>
+<wfauthor>McGill Department of Materials Engineering</wfauthor>
+<wfdescription>&lt;p&gt;Click a course to see the details, or hover over the circle next to it to see its graduate attributes and outcomes.&lt;/p&gt;</wfdescription>
+<wfid>1</wfid>
+<wftype>program</wftype>
+<advancedoutcomes>true</advancedoutcomes>
+<linktagging>true</linktagging>
+<validation>true</validation>
+<reqtime>117</reqtime>
+<maxtime>18</maxtime>
+<usedwfARRAY></usedwfARRAY>
+<tagsetARRAY>22,5345,5637</tagsetARRAY>
+<wfdata><column><columnname>CUS1</columnname>
+<columnimage>gears</columnimage>
+<columncolour>#543498</columncolour>
+<columntext>Materials Engineering
+ Fundamentals</columntext>
+<columnnodetext>Materials Engineering
+ Fundamentals</columnnodetext>
+<columnoutcomevisibility>true</columnoutcomevisibility>
+</column>
+<column><columnname>CUS2</columnname>
+<columnimage>science</columnimage>
+<columncolour>#369934</columncolour>
+<columntext>Science-Based Courses</columntext>
+<columnnodetext>Science-Based Courses</columnnodetext>
+<columnoutcomevisibility>true</columnoutcomevisibility>
+</column>
+<column><columnname>CUS3</columnname>
+<columnimage>process</columnimage>
+<columncolour>#349698</columncolour>
+<columntext>Experiential and 
+Design-Based Courses</columntext>
+<columnnodetext>Experiential and 
+Design-Based Courses</columnnodetext>
+<columnoutcomevisibility>true</columnoutcomevisibility>
+</column>
+<column><columnname>CUS4</columnname>
+<columnimage>target</columnimage>
+<columncolour>#72176c</columncolour>
+<columntext>Specialized Courses</columntext>
+<columnnodetext>Specialized Courses</columnnodetext>
+<columnoutcomevisibility>true</columnoutcomevisibility>
+</column>
+<column><columnname>CUS5</columnname>
+<columnimage>general</columnimage>
+<columncolour>#d67a2e</columncolour>
+<columntext>General Courses</columntext>
+<columnnodetext>General Courses</columnnodetext>
+<columnoutcomevisibility>true</columnoutcomevisibility>
+</column>
+<week><weekid>20</weekid>
+<weekname>Semester 1 (Fall)</weekname>
+<node><name>CHEM 110: General Chemistry 1 </name>
+<id>4722</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;P - College level mathematics and physics or permission of instructor&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>67</textheight>
+<timevalue>4</timevalue>
+<timeunit>cr</timeunit>
+</node>
+<node><name>MATH 133: Linear Algebra and Geometry </name>
+<id>4548</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;P - A course in functions &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>53</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4710</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<link><targetid>4749</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+<linkstyle>dashed</linkstyle>
+</link>
+</node>
+<node><name>MATH 140: Calculus 1 </name>
+<id>4551</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;P - High school calculus &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>53</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4692</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+<linkstyle>dashed</linkstyle>
+</link>
+</node>
+<node><name>PHYS 131: Mechanics and Waves </name>
+<id>4692</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;C-Calculus course [MATH 140] &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>53</textheight>
+<timevalue>4</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4701</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+</link>
+</node>
+<node><name>FACC 100: Introduction to the Engineering Profession</name>
+<id>51</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS5</column>
+<textHTML>&lt;p&gt;Faculty Course: Introduction to engineering practice; rights and code of conduct for students; professional conduct and ethics; engineer's duty to society and the environment; sustainable development; occupational health and safety; overview of the engineering disciplines taught at McGill.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Terms: Fall, Winter&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Contact Hours: 1.5-0-1.5&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>184</textheight>
+<timevalue>1</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>110</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INn;</portstyle>
+</link>
+<link><targetid>174</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>234</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+<nodetag><nodetagid>236</nodetagid>
+</nodetag>
+<nodetag><nodetagid>237</nodetagid>
+</nodetag>
+<nodetag><nodetagid>238</nodetagid>
+</nodetag>
+<nodetag><nodetagid>239</nodetagid>
+</nodetag>
+<nodetag><nodetagid>240</nodetagid>
+</nodetag>
+</node>
+</week>
+<week><weekid>18</weekid>
+<weekname>Semester 2 (Winter)</weekname>
+<node><name>CHEM 120: General Chemistry 2 </name>
+<id>4695</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;P - College level mathematics and physics or permission of instructor &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>67</textheight>
+<timevalue>4</timevalue>
+<timeunit>cr</timeunit>
+</node>
+<node><name>MATH 141: Calculus 2 </name>
+<id>4698</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;P-MATH 140 &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>53</textheight>
+<timevalue>4</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4710</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+</link>
+<link><targetid>4749</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INw;</portstyle>
+</link>
+<link><targetid>4701</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INn;</portstyle>
+<linkstyle>dashed</linkstyle>
+</link>
+</node>
+<node><name>PHYS 142: Electromagnetism and Optics </name>
+<id>4701</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;P-PHYS 131 / C-MATH 141 &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>53</textheight>
+<timevalue>4</timevalue>
+<timeunit>cr</timeunit>
+</node>
+<node><name>Complementary Studies Group B (HSSML)-1*</name>
+<id>4704</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS5</column>
+<textHTML>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>34</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+</node>
+</week>
+<week><weekid>17</weekid>
+<weekname>Semester 3 (Fall)</weekname>
+<node><name>CCOM 206: Communication in Engineering </name>
+<id>4707</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS4</column>
+<textHTML>&lt;p&gt;Communication (CCE) : Written and oral communication in Engineering (in English): strategies for generating, developing, organizing, and presenting ideas in a technical setting; problem-solving; communicating to different audiences; editing and revising; and public speaking. Course work based on academic, technical, and professional writing in engineering.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>160</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4716</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INe;</portstyle>
+<linkstyle>dashed</linkstyle>
+</link>
+</node>
+<node><name>MIME 250: Introduction to Extractive Metallurgy </name>
+<id>4716</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Introduction to physical, hydrochemical, electrochemical and thermochemical processing in the production of metals and materials; description of the industries, basic processing concepts, unit operations and an introduction to environmental exchanges. Size reduction and classification, particle separation, stoichiometric and mass balance calculations, chemical equilibria, aqueous processing, smelting and refining.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;(3-2-4)&lt;/p&gt;&lt;p&gt;Corequisite:&amp;nbsp;&lt;a href="https://www.mcgill.ca/study/2020-2021/courses/ccom-206" target="_blank"&gt;CCOM 206&lt;/a&gt;&amp;nbsp;or&amp;nbsp;&lt;a href="https://www.mcgill.ca/study/2020-2021/courses/mime-202" target="_blank"&gt;MIME 202&lt;/a&gt;.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>221</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4737</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<link><targetid>4768</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+</link>
+<link><targetid>4778</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INn;</portstyle>
+</link>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>234</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5348</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5351</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5352</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 261: Structure of Materials </name>
+<id>4719</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Classification of materials, electrons in atoms, molecules and solids, bonding in solids, elements of crystallography, common crystal structures, atoms positions, directions and planes in crystal structures, defects in crystalline solids, point defects, dislocations, structure of polycrystalline materials, grains, grain boundaries, non-crystalline solids.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>160</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4752</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+</link>
+<link><targetid>4758</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INe;</portstyle>
+</link>
+<link><targetid>4765</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<link><targetid>4771</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<link><targetid>4787</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+</link>
+<link><targetid>4824</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>233</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5346</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5350</nodetagid>
+</nodetag>
+</node>
+<node><name>MATH 262: Intermediate Calculus </name>
+<id>4710</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;P-MATH 133, MATH 141 &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>53</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4740</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INn;</portstyle>
+<linkstyle>dashed</linkstyle>
+</link>
+<link><targetid>4794</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+</node>
+<node><name>MECH 289: Design Graphics </name>
+<id>4713</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS3</column>
+<textHTML>&lt;p&gt;Mechanical Engineering : The design process, including free-hand sketching; from geometry construction to engineering construction; the technology and standards of engineering graphic communication; designing with CAD software. The role of visualization in the production of engineering designs.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>108</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>232</nodetagid>
+</nodetag>
+<nodetag><nodetagid>233</nodetagid>
+</nodetag>
+<nodetag><nodetagid>239</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5356</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5644</nodetagid>
+</nodetag>
+</node>
+</week>
+<week><weekid>16</weekid>
+<weekname>Semester 4 (Winter)</weekname>
+<node><name>MIME 209: Mathematical Applications </name>
+<id>4731</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Introduction to stochastic modelling of mining and metallurgical engineering processes. Description and analysis of data distributions observed in mineral engineering applications. Modelling with linear regression analysis. Taylor series application to error and uncertainty propagation. Metallurgical mass balance adjustments.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>136</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4824</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+</link>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>233</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 212: Engineering Thermodynamics </name>
+<id>4734</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Macro versus microscopic approach: patterns of Nature. First and second laws and their uses. Property relationships: free energies, chemical potentials, activities, heat capacity. Chemical equilibrium. Reaction kinetics. Phase equilibrium for a pure substance. Experimental methods. Engineering applications: high-temperature metallurgical reactors, turbines, mixtures and solutions, phase diagrams, superconductivity.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>164</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4755</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<link><targetid>4758</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INn;</portstyle>
+<linkstyle>dashed</linkstyle>
+</link>
+<link><targetid>4768</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INn;</portstyle>
+</link>
+<link><targetid>4778</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+</link>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 341: Introduction to Mineral Processing </name>
+<id>4737</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Theory and practice of unit operations including: size reduction-crushing and grinding; size separation-screening and classification; mineral separation-flotation, magnetic and gravity separation. Equipment and circuit design and selection. Mass balancing. Laboratory procedures: grindability, liberation, magnetic and gravity separation, flotation and solid-liquid separation.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P - MIME 200 or MIME 250&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>188</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+</node>
+<node><name>CHEM 233: Topics in Physical Chemistry </name>
+<id>4725</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;Chemistry : Introduction to chemical kinetics, surface and colloid chemistry and electrochemistry. The topics to be discussed will be of particular interest to students in chemical engineering.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>90</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4778</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INe;</portstyle>
+</link>
+</node>
+<node><name>CIVE 205: Statics </name>
+<id>4728</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS3</column>
+<textHTML>&lt;p&gt;Civil Engineering : Systems of forces and couples, resultants, equilibrium. Trusses, frames and beams, reactions, shear forces, bending moments. Centroids, centres of gravity, distributed forces, moments of inertia. Friction, limiting equilibrium, screws, belts.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>94</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4743</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INn;</portstyle>
+</link>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+</node>
+</week>
+<week><weekid>2</weekid>
+<weekname>Semester 5 (Summer)</weekname>
+<node><name>MATH 263: Ordinary Differential Equations for Engineers</name>
+<id>4740</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;C-MATH262 &lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>34</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4771</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INe;</portstyle>
+</link>
+<link><targetid>4794</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+<linkstyle>dashed</linkstyle>
+</link>
+</node>
+</week>
+<week><weekid>3</weekid>
+<weekname>Semester 6 (Fall)</weekname>
+<node><name>CIVE 207: Solid Mechanics </name>
+<id>4743</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS3</column>
+<textHTML>&lt;p&gt;P-CIVE 205 or MECH 210 &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>53</textheight>
+<timevalue>4</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+</node>
+<node><name>COMP 208: Computers in Engineering  </name>
+<id>4749</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS3</column>
+<textHTML>&lt;p&gt;P-differential and integral calculus [MATH 140 and MATH 141] / C-linear algebra [MATH 133] &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>81</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+</node>
+<node><name>MIME: 317 Analytical and Characterization Techniques</name>
+<id>4752</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Bulk, surface and microanalytical techniques for materials characterization. Bulk analysis: spectrophotometry using UV, visible, flame and atomic absorption, x-ray diffraction and x-ray fluorescence. Surface and microanalysis: infrared spectroscopy, scanning and transmission electron microscopy, Auger electron and x-ray photoelectron spectroscopy.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P-MIME261&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>188</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>233</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 356: Heat, Mass and Fluid Flow </name>
+<id>4755</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Fluid statics and dynamics. Newton's laws of viscosity and motion, control volume analyses. Navier Stokes, Euler. Bemoulli and Steady Flow Energy Equations. turbulence and Reynolds stress equations. Molecular conduction/diffusion processes in heat and mass transfer). Convective flows. Transport coefficients in slags, metals and gases. Radiative heat transfer. Transient/steady state flow.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P-MIME212&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>212</textheight>
+<timevalue>4</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4778</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INw;</portstyle>
+</link>
+<link><targetid>4797</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<link><targetid>4800</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+</link>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 360: Phase Transformations: Solids </name>
+<id>4758</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Free energy (equilibrium) and kinetic (non-equilibrium) considerations, phase diagrams and TTT diagrams, solid state diffusion, diffusional (nucleation and growth) and shear (martensitic) transformations.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P-MIME 260 or MIME 261 / P or C -MIME 212&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>132</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<isdropped>true</isdropped>
+<link><targetid>4781</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<link><targetid>4784</targetid>
+<portstyle>sourcePort=OUTe;targetPort=INe;</portstyle>
+</link>
+<link><targetid>4821</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5347</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5352</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5641</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5643</nodetagid>
+</nodetag>
+</node>
+<node><name>FACC 250: Responsibilities of the Professional Engineer</name>
+<id>110</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS5</column>
+<textHTML>&lt;p&gt;Faculty Course: A course designed to provide all Engineering students with further training regarding their responsibilities as future Professional Engineers. Particular focus will be placed on three professional characteristics that future engineers must demonstrate: i) professionalism, ii) ethical and equitable behaviour, and iii) consideration of the impact of engineering on society and the environment.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Terms: Fall, Winter&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Contact Hours: 0-0-0.5&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Prerequisite(s):&amp;nbsp;FACC 100&amp;nbsp;or&amp;nbsp;BREE 205&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Restriction(s): Restricted to undergraduate students registered in the Bioengineering, Bioresource Engineering, Chemical Engineering, Civil Engineering, Computer Engineering, Electrical Engineering, Materials Engineering, Mechanical Engineering, Mining Engineering, and Software Engineering (Faculty of Engineering) program.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>457</textheight>
+<timevalue>0</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>236</nodetagid>
+</nodetag>
+<nodetag><nodetagid>237</nodetagid>
+</nodetag>
+<nodetag><nodetagid>238</nodetagid>
+</nodetag>
+</node>
+</week>
+<week><weekid>115</weekid>
+<weekname>Semester 7 (Winter)</weekname>
+<node><name>MIME 280: Industrial Training 1 </name>
+<id>4761</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Four-month training period in a materials engineering industrial or research environment. Work term report due upon completion.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P -40 program credits&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>104</textheight>
+<timevalue>2</timevalue>
+<timeunit>cr</timeunit>
+<isdropped>true</isdropped>
+<link><targetid>4810</targetid>
+<portstyle>sourcePort=OUTw;targetPort=INw;</portstyle>
+</link>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>240</nodetagid>
+</nodetag>
+<nodetag><nodetagid>234</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+</node>
+</week>
+<week><weekid>4763</weekid>
+<weekname>Semester 8 (Summer)</weekname>
+<node><name>FACC 300: Engineering Economy</name>
+<id>132</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS5</column>
+<textHTML>&lt;p&gt;Faculty Course: Introduction to the basic concepts required for the economic assessment of engineering projects. Topics include: accounting methods, marginal analysis, cash flow and time value of money, taxation and depreciation, discounted cash flow analysis techniques, cost of capital, inflation, sensitivity and risk analysis, analysis of R and D, ongoing as well as new investment opportunities.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Terms: Fall, Winter, Summer&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Contact Hours: 3-1-5&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Restriction: Not open to students who have taken&amp;nbsp;MIME 310.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>288</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+</node>
+<node><name>MIME 345: Applications of Polymers  </name>
+<id>4765</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Applications of synthetic and natural polymers and composites as engineering materials, e.g. in biomedical, automotive and aerospace applications. Thermoplastics, thermosets and elastomers. Animal and plant origin, degradable and non-degradable polymers. Particulate and fibre reinforced polymer matrix composites. Manufacturing routes, and characterization tools for their physical, thermal, mechanical and chemical properties.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P - MIME 261 or instructor permission&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>240</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>234</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 350: Extractive Metallurgical Engineering </name>
+<id>4768</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Principle non-ferrous base-metal pyrometallurgical extraction processes, relevant thermodynamics, heat and mass balances, transport phenomena (copper, nickel, lead, zinc, aluminum, magnesium). Ores, gangue, fuels, slag, fluxes, recovery, refining, minor elements, byproducts and the environment. Roasting, drying, smelting, converting, reverberatory furnaces, flash furnaces, continuous and batch operations, injection practices and oxygen enrichment. Simulation, modelling, control and optimization.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P -MIME 200 or MIME 250, MIME 212&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>273</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>232</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 467: Electronic Properties of Materials </name>
+<id>4771</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Electrons as particles and waves, Schrodinger's Equation, electrical and thermal conductivity, semiconductors, semiconductor devices, fundamentals of magnetism, superconductivity and superconductive materials, dielectric materials, optical properties of materials, LASERs and waveguides. Advanced materials and their technological applications. An introduction to quantum mechanics will be included which will be the foundation upon which energy band diagrams will be built and understood.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P- MIME 261, MATH 263&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>230</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>232</nodetagid>
+</nodetag>
+</node>
+</week>
+<week><weekid>4773</weekid>
+<weekname>Semester 9 (Fall)</weekname>
+<node><name>ECSE 461: Electric Machinery </name>
+<id>4775</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS3</column>
+<textHTML>&lt;p&gt;Electrical Engineering : Electric and magnetic circuits. Notions of electromechanical energy conversion applied to electrical machines. Basic electrical machines - transformers, direct-current motors, synchronous motors and generators, three phase and single phase induction machines. Elements of modern electronically controlled electric drive systems.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>160</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>233</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 352: Hydrochemical Processing </name>
+<id>4778</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Analysis and description of dissolution (leaching), solute separation (solvent extraction, ion exchange, carbon adsorption) and deposition operations (precipitation, crystallization, electrolysis) in aqueous reaction media as these apply to: (i) the hydrometallurgical extraction of metals from primary/secondary sources; (ii) the treatment of effluents and (iii) the production of inorganic materials.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P-CHEM 233, MIME 200 or MIME 250, MIME 212, MIME 356&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>245</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>232</nodetagid>
+</nodetag>
+<nodetag><nodetagid>234</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 362: Mechanical Properties </name>
+<id>4781</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Stress-strain behaviour. Elasticity and plasticity of metals, ceramics and polymers. Dislocations theory. Single crystal and polycrystalline slip. Mechanical twinning. Strengthening mechanisms. Process-property and microstructure-property relationships. Notch toughness and fracture mechanics. Failure, fracture and damage accumulation. Fatigue. Creep and creep rupture. Fractography. Design considerations in materials selection.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P-MIME360&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>226</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>232</nodetagid>
+</nodetag>
+<nodetag><nodetagid>233</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5346</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5347</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5349</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5350</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 465: Metallic and Ceramic Powders Processing </name>
+<id>4784</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Powder metallurgy and ceramic processing. Fabrication, characterization and properties of powders. Powder consolidation techniques. Sintering and densification mechanisms. Properties of porous compacts. Design of fabrication process. Particularities and classification of ceramic systems.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P-MIME360&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>160</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>232</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 470: Engineering Biomaterials </name>
+<id>4787</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Key definitions, clinical need, desired materials properties, current and future materials, materials assessments and performance. Materials of the body. Characterisation techniques for bulk and mechanical properties of biomaterials. Engineering processing and design of biomaterials.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P-MIME261&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>170</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME xxx: Technical Complementary </name>
+<id>4790</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS4</column>
+<textHTML>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>34</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+</node>
+</week>
+<week><weekid>4792</weekid>
+<weekname>Semester 10 (Winter)</weekname>
+<node><name>MIME 311: Modelling and Automatic Control </name>
+<id>4797</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Mass and energy conservation laws. Dynamic versus steady state models, dynamic behaviour of first and higher order metallurgical systems, linear and nonlinear models, interacting and noninteracting systems. Laplace domain dynamics and transfer functions. Feedback control, control valves and controllers, transducers. Feedback-feedforward control, introduction to cascade, adaptive and statistical control strategies. Digital computer control, instruments and interfaces.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P-MIME356&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>235</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>232</nodetagid>
+</nodetag>
+<nodetag><nodetagid>233</nodetagid>
+</nodetag>
+<nodetag><nodetagid>237</nodetagid>
+</nodetag>
+<nodetag><nodetagid>240</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 455: Advanced Process Engineering </name>
+<id>4800</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Transport phenomena in non-idealized systems. Solutions for transient heat and mass transfer processes involving thermal and molecular diffusion in materials processing systems. Natural and forced convection in heat and mass transfer. Dimensionless correlations. Fick's Laws and Fourier's Laws. Exact solutions. Numerical approximations for transient systems. Equivalences between heat and mass transfer. Finite difference modelling of conduction, convection and radiation heat transfer and diffusion and convection mass transfer.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P-MIME356&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>244</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4821</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INn;</portstyle>
+<linkstyle>dashed</linkstyle>
+</link>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+</node>
+<node><name>MATH 264: Advanced Calculus for Engineers </name>
+<id>4794</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS2</column>
+<textHTML>&lt;p&gt;P-MATH 262 / C-MATH 263 &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>53</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+</node>
+<node><name>MIME xxx: Technical Complementary </name>
+<id>4803</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS4</column>
+<textHTML>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>34</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+</node>
+<node><name>Complementary Studies Group A (Impact)* </name>
+<id>4806</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS5</column>
+<textHTML>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>34</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+</node>
+</week>
+<week><weekid>4808</weekid>
+<weekname>Semester 11 (Summer)</weekname>
+<node><name>MIME 380: Industrial Training 2 </name>
+<id>4810</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;P-MIME280&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>34</textheight>
+<timevalue>2</timevalue>
+<timeunit>cr</timeunit>
+<link><targetid>4814</targetid>
+<portstyle>sourcePort=OUTs;targetPort=INn;</portstyle>
+</link>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>234</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+<nodetag><nodetagid>240</nodetagid>
+</nodetag>
+</node>
+</week>
+<week><weekid>4812</weekid>
+<weekname>Semester 12 (Fall)</weekname>
+<node><name>MIME 480: Industrial Training 3</name>
+<id>4814</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;P-MIME380&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>24</textheight>
+<timevalue>2</timevalue>
+<timeunit>cr</timeunit>
+<isdropped>true</isdropped>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>234</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+<nodetag><nodetagid>240</nodetagid>
+</nodetag>
+</node>
+</week>
+<week><weekid>4816</weekid>
+<weekname>Semester 13 (Winter)</weekname>
+<node><name>FACC 400: Engineering Professional Practice</name>
+<id>174</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS5</column>
+<textHTML>&lt;p&gt;Faculty Course: Laws, regulations and codes governing engineering professional practice. Responsibility and liability. Environmental legislation. Project and organization management. Relations between engineer and client. Technical practice - analysis, design, execution and operation.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Terms: Fall, Winter&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Contact Hours: 1.5-1-0.5&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Prerequisites:&amp;nbsp;FACC 100&amp;nbsp;or&amp;nbsp;BREE 205&amp;nbsp;and at least 60 program credits (B.Eng./B.S.E. students in the Faculty of Engineering) or 45 program credits (B.Eng. Bioresource) students.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Restriction: Not open to students who have taken&amp;nbsp;MIME 221.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>373</textheight>
+<timevalue>1</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>5347</nodetagid>
+</nodetag>
+</node>
+<node><name>Complementary Studies Group B (HSSML) - 2* </name>
+<id>4830</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS5</column>
+<textHTML>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>34</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+</node>
+<node><name>MIME 452: Process and Materials Design </name>
+<id>4818</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Design of new metallurgical plants, processes, materials and products based on 3 previous core courses; materials and heat balances, metal economics, design and optimization; materials selection, design and failure problems in various materials systems.&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>108</textheight>
+<timevalue>4</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>232</nodetagid>
+</nodetag>
+<nodetag><nodetagid>234</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+<nodetag><nodetagid>237</nodetagid>
+</nodetag>
+<nodetag><nodetagid>239</nodetagid>
+</nodetag>
+<nodetag><nodetagid>236</nodetagid>
+</nodetag>
+<nodetag><nodetagid>233</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5350</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5353</nodetagid>
+</nodetag>
+<nodetag><nodetagid>5649</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 456: Steelmaking and Steel Processing </name>
+<id>4821</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : The production and refining of liquid iron in the iron blast furnace, the production and refining of liquid steel, secondary refining operations, continuous casting and thermomechanical processing (hot rolling). Specialty steels and newly emerging technologies (e.g. thin slab casting, direct ironmaking) are also discussed in terms of process/environment and productivity. "Downstream" topics will include cold rolling, batch and continuous annealing, and coating operations.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P-MIME 360 / P or C-MIME 455&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>216</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>232</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME 473: Introduction to Computational Materials Design </name>
+<id>4824</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS1</column>
+<textHTML>&lt;p&gt;Mining &amp;amp; Materials Engineering : Introduction to modelling and simulation techniques in materials engineering: quantum mechanics and atomistic simulation (i.e. Monte-Carlo and Molecular Dynamics). These modelling and simulations methods provide new and efficient tools to examine and predict various physical and mechanical properties of materials, enabling bottom-up design of materials and structures starting from quantum and atomistic level. These computational tools play an increasingly important role in modern materials engineering. Fundamental theories behind materials modelling and hands-on training on various modelling software.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;P - MIME 209 and MIME 261, or permission of instructor&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>286</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+<nodetag><nodetagid>228</nodetagid>
+</nodetag>
+<nodetag><nodetagid>230</nodetagid>
+</nodetag>
+<nodetag><nodetagid>231</nodetagid>
+</nodetag>
+<nodetag><nodetagid>232</nodetagid>
+</nodetag>
+<nodetag><nodetagid>233</nodetagid>
+</nodetag>
+<nodetag><nodetagid>235</nodetagid>
+</nodetag>
+</node>
+<node><name>MIME xxx: Technical Complementary </name>
+<id>4827</id>
+<lefticon>undefined</lefticon>
+<righticon>undefined</righticon>
+<column>CUS4</column>
+<textHTML>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</textHTML>
+<linkedwf>undefined</linkedwf>
+<textheight>34</textheight>
+<timevalue>3</timevalue>
+<timeunit>cr</timeunit>
+</node>
+</week>
+<wflegendx>940</wflegendx>
+<wflegendy>400</wflegendy>
+</wfdata></workflow>
+<tag><tagname>Graduate Attributes</tagname>
+<tagid>22</tagid>
+<iscollapsed>false</iscollapsed>
+<tag><tagname>KB - Knowledge Base for Engineering</tagname>
+<tagid>228</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>PA - Problem Analysis</tagname>
+<tagid>230</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>IN - Investigation</tagname>
+<tagid>231</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>DE - Design</tagname>
+<tagid>232</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>ET - Use of engineering tools</tagname>
+<tagid>233</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>IT - Individual and team work</tagname>
+<tagid>234</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>CS - Communication Skills</tagname>
+<tagid>235</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>PR - Professionalism</tagname>
+<tagid>236</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>IE - Impact of engineering on society and the environment</tagname>
+<tagid>237</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>EE - Ethics and equity</tagname>
+<tagid>238</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>EP - Economics and project management</tagname>
+<tagid>239</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>LL - Life-long learning</tagname>
+<tagid>240</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+</tag>
+<tag><tagname>Descrepancy - GA claimed NOT evaluated</tagname>
+<tagid>5345</tagid>
+<iscollapsed>false</iscollapsed>
+<tag><tagname>KB - GA claimed NOT evaluated</tagname>
+<tagid>5346</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>PA - GA claimed NOT evaluated</tagname>
+<tagid>5347</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>IN - GA claimed NOT evaluated</tagname>
+<tagid>5348</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>DE - GA claimed NOT evaluated</tagname>
+<tagid>5349</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>ET - GA claimed NOT evaluated</tagname>
+<tagid>5350</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>IT - GA claimed NOT evaluated</tagname>
+<tagid>5351</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>CS - GA claimed NOT evaluated</tagname>
+<tagid>5352</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>PR - GA claimed NOT evaluated</tagname>
+<tagid>5353</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>IE - GA claimed NOT evaluated</tagname>
+<tagid>5354</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>EE - GA claimed NOT evaluated</tagname>
+<tagid>5355</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>EP - GA claimed NOT evaluated</tagname>
+<tagid>5356</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>LL - GA claimed NOT evaluated</tagname>
+<tagid>5357</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+</tag>
+<tag><tagname>Descrepancy - GA evaluated NOT claimed</tagname>
+<tagid>5637</tagid>
+<iscollapsed>false</iscollapsed>
+<tag><tagname>KB - GA evaluated NOT claimed</tagname>
+<tagid>5638</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>PA - GA evaluated NOT claimed</tagname>
+<tagid>5639</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>IN - GA evaluated NOT claimed</tagname>
+<tagid>5640</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>DE - GA evaluated NOT claimed</tagname>
+<tagid>5641</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>ET - GA evaluated NOT claimed</tagname>
+<tagid>5642</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>IT - GA evaluated NOT claimed</tagname>
+<tagid>5643</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>CS - GA evaluated NOT claimed</tagname>
+<tagid>5644</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>PR - GA evaluated NOT claimed</tagname>
+<tagid>5645</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>IE - GA evaluated NOT claimed</tagname>
+<tagid>5646</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>EE - GA evaluated NOT claimed</tagname>
+<tagid>5647</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>EP - GA evaluated NOT claimed</tagname>
+<tagid>5648</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+<tag><tagname>LL - GA evaluated NOT claimed</tagname>
+<tagid>5649</tagid>
+<iscollapsed>true</iscollapsed>
+</tag>
+</tag>
+</project>
