@@ -41,6 +41,7 @@ class Project{
         
         $("#save").removeClass("disabled");
         $("#exporthtml").removeClass("disabled");
+        $("#exportjson").removeClass("disabled");
         $("#import").removeClass("disabled");
         $("#importcsv").removeClass("disabled");
         $("#savereadonly").removeClass("disabled");
@@ -133,6 +134,7 @@ class Project{
                 }
                 
                 p.changeActive(p);
+                console.log(p);
             }
         }
         
@@ -180,6 +182,11 @@ class Project{
             p.showExportOptions(true);
         }
         
+        var exportHTML = document.getElementById('exportjson');
+        exportHTML.onclick = function(){
+            gaEvent('Save/Open','ExportJSON',p.name);
+            p.exportJSON();
+        }
         var exportCSV = document.getElementById('exportcsv');
         exportCSV.onclick = function(){
             gaEvent('Save/Open','ExportCSV',p.name);
@@ -430,6 +437,27 @@ class Project{
             }, 0);
         }
     }
+    saveJSON(json,filename){
+        let replacer = (key, value) =>
+            typeof value === 'undefined' ? null : value;
+        var file = new Blob([JSON.stringify(json,replacer)], {type: "data:text;charset=utf-8;"});
+        if (window.navigator.msSaveOrOpenBlob) // IE10+
+            window.navigator.msSaveOrOpenBlob(file, filename);
+        else { // Others
+            var a = document.createElement("a"),
+                    url = URL.createObjectURL(file);
+            a.href = url;
+            a.download = filename;
+            a.target="save as";
+            document.body.appendChild(a);
+            a.click();
+            setTimeout(function() {
+                alert("To import your file, go to your home page on CourseFlow and replace '/home' with '/import' at the end of the url");
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+            }, 0);
+        }
+    }
     
     exportCurrent(){
         var serializer = new XMLSerializer();
@@ -451,6 +479,30 @@ class Project{
         xml = makeXML(xml,"project");
         var filename = wf.name.replace(/&/g," and ").replace(/</g,"[").replace(/>/g,"]")+".CFlow";
         this.saveXML(xml,filename);
+    }
+    
+    exportJSON(){
+        var json = {
+            project:[{id:int(this.idNum)+1,title:this.name,activities:this.workflows.activity.map((activity)=>activity.id),courses:this.workflows.course.map((course)=>course.id),programs:this.workflows.program.map((program)=>program.id),outcomes:this.workflows.outcome.map((outcome)=>outcome.id)}],
+            outcome:[],
+            activity:[],
+            course:[],
+            program:[],
+            column:[],
+            week:[],
+            node:[],
+            nodelink:[],
+            outcomenode:[],
+        };
+        console.log(this);
+        console.log(this.workflows);
+        for(let prop in this.workflows){
+            for(let i = 0;i<this.workflows[prop].length;i++){
+                this.workflows[prop][i].toJSON(json);
+            }
+        }
+        console.log(json);
+        this.saveJSON(json,"export.json");
     }
     
     exportCSV(){
