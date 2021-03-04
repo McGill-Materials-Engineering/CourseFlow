@@ -72,6 +72,23 @@ class Workflow{
         return xmlData;
     }
     
+    toJSON(json){
+        if(!this.isActive)
+        this.openXMLData();
+        let outcomes_type=0;
+        if(this.settings.settingsKey["advancedoutcomes"].value)outcomes_type=1;
+        json[this.getType()].push({id:this.id,title:this.name,description:this.description,weeks:this.weeks.map((week)=>week.id),columns:this.columns.map((column)=>column.name),outcomes_type:outcomes_type})
+        for(let i=0;i<this.columns.length;i++){
+            this.columns[i].toJSON(json);
+        }
+        for(let i=0;i<this.weeks.length;i++){
+            this.weeks[i].toJSON(json);
+        }
+        if(!this.isActive)this.makeInactive();
+        
+        
+    }
+    
     saveXMLData(){
         var xml="";
         if(this.view&&this.view.legend){
