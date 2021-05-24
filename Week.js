@@ -70,6 +70,13 @@ class Week {
         return makeXML(xml,"week");
     }
     
+    toJSON(json){
+        json.week.push({id:this.id,title:this.name,nodes:this.nodes.map((node)=>node.id)});
+        for(let i=0;i<this.nodes.length;i++){
+            this.nodes[i].toJSON(json);
+        }
+    }
+    
     fromXML(xmlData){
         var wf = this.wf;
         this.id = getXMLVal(xmlData,"weekid");

@@ -40,6 +40,10 @@ class Column {
         return makeXML(xml,"column");
     }
     
+    toJSON(json){
+        json.column.push({id:this.name,workflow:this.wf.id,title:this.nodetext,icon:this.image,colour:this.colour});
+    }
+    
     fromXML(xml){
         var name = getXMLVal(xml,"columnname");
         this.setName(name);

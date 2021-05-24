@@ -234,6 +234,7 @@ class Tag {
         return makeXML(xml,"tag");
     }
     
+    
     fromXML(xml){
         this.setName(getXMLVal(xml,"tagname",true));
         this.id=getXMLVal(xml,"tagid");
@@ -247,6 +248,15 @@ class Tag {
                 this.children.push(newtag);
             }
         }
+    }
+    
+    toJSON(json){
+        console.log(json.outcome);
+        json.outcome.push({title:this.name,id:this.id,children:this.children.map((child)=>child.id)});
+        for(let i=0;i<this.children.length;i++){
+            this.children[i].toJSON(json);
+        }
+        console.log(json);
     }
     
     

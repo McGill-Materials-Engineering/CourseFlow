@@ -90,6 +90,17 @@ class CFNode {
         return makeXML(xml,"node");
     }
     
+    toJSON(json){
+        json.node.push({id:this.id,title:this.name,description:this.text,context_classification:this.lefticon,task_classification:this.righticon,colour:this.colour,workflow:this.wf.id,time_required:this.time.value,time_units:this.time.unit,linked_workflow:this.linkedWF,column:this.column});
+        for(let i=0;i<this.fixedLinksOut.length;i++){
+            this.fixedLinksOut[i].toJSON(json);
+        }
+        for(let i=0;i<this.tags.length;i++){
+            this.tags[i].toJSON(json);
+        }
+        
+    }
+    
     fromXML(xml){
         this.setName(getXMLVal(xml,"name",true));
         this.id = getXMLVal(xml,"id");
@@ -759,6 +770,10 @@ class WFLink{
         return makeXML(xml,"link");
     }
     
+    toJSON(json){
+        json.nodelink.push({source:this.node.id,target:this.id,title:this.text,style:this.style});
+    }
+    
     fromXML(xml){
         var targetid = getXMLVal(xml,"targetid");
         var portStyle = getXMLVal(xml,"portstyle");
@@ -979,6 +994,10 @@ class NodeTag{
         if(this.degree>1)xml+=makeXML(this.degree,"nodetagdegree");
         if(this.node instanceof WFLink)return makeXML(xml,"linktag");
         else return makeXML(xml,"nodetag");
+    }
+    
+    toJSON(json){
+        json.outcomenode.push({node:this.node.id,outcome:this.tag.id,degree:this.degree});
     }
     
     fromXML(xml){
